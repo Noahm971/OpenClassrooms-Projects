@@ -458,3 +458,63 @@ footer{
     grid-auto-flow: column;
     background-color: var(--lightgrey);
 }
+@media screen and (max-width: 1024px){
+    h1{
+        font-size: 1.5rem;
+    }
+    .accommodation{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .main-box{
+        width: 100%;
+        margin: 0;
+    }
+    .secondary-box{
+        min-height: 280px;
+        width: 100%;
+        /* margin: 0; */
+    }
+    .grid-secondary-container{
+        display: flex;
+        gap: 20px;
+    }
+
+    .grid-secondary-container a{
+        height: 150px;
+    }
+    .secondary-cards:hover{
+        transform: scale(1.05);
+    }
+    .filter-container{
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .filter-nav{
+        gap: 15px;
+        padding: 0;
+    }
+    .filter-nav li{
+        width: 30%;
+    }
+    .filter-button{
+        height: 60px;
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    button img{
+        height: 60%;
+    }
+    .activity{
+        min-height: 300px;
+    }
+    .activity-cards img{
+        height: 200px;
+    }
+    .activity-title{
+        min-height: 50px;
+        margin: 10px;
+    }
+}
