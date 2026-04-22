@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Booki</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<body>
+    
+    <div class="main-container">
+    
+        <nav>
+            <div class="logo-site">
+                <img src="./images/logo/Booki.png" alt="Logo Booki">
+            </div>
+            <ul class="navbar">
+
+                <li><a href="#1">Hébergements</a></li>
+                <li><a href="#2">Activités</a></li>
+
+            </ul>
+        </nav>
+
+        <header>
+
+            <div class="header-text">
+
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein Centre-ville ou en pleine nature</p>
+
+            </div>
+
+            
+
+            <form action="GET">
+        
+                <div class="input-container">
+        
+                    <label for="city"> <i class="fa-solid fa-location-dot"></i> </label>
+                    <input type="text" id="city" name="city" placeholder="Marseille, France">
+                    <button type="submit" class="submit-button">
+                        <span class="text-button">Rechercher</span>
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                    
+                </div>
+                    
+        
+            </form>
+
+
+
+            <div class="filter-container">
+
+                <h2>Filtres</h2>
+
+                <ul class="filter-nav">
+                    <li>
+                        <button class="filter-button"> <img src="./images/icons/Property1=price.png" alt=""> Économique</button>
+                    </li>
+                    <li>
+                        <button class="filter-button"> <img src="./images/icons/Property1=family.png" alt=""> Familial</button>
+                    </li>
+                    <li>
+                        <button class="filter-button"> <img src="./images/icons/Property1=romantic.png" alt=""> Romantique</button>
+                    </li>
+                    <li>
+                        <button class="filter-button"> <img src="./images/icons/Property1=fire.png" alt=""> Nos Pépites</button>
+                    </li>
+                </ul>
+                
+            </div>
+            
+            <div class="infos">
+                <div class="icon-container">
+                    <img src="./images/icons/Property1=info(1).png" alt="">
+                </div>
+                <p> Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+            
+        </header>
+
+        
+        
+        <main>
+            
+            <section class="accommodation" id="1">
+
+                    <div class="main-box">
+                    
+                        <h2>Hébergements à Marseille</h2>
+
+                        <div class="grid-main-container">
+
+                            <a href="https://openclassrooms.com/fr/" class="main-anchor" target="_blank">
+                                <div class="main-cards">
+
+                                    <div class="main-img-container">
+                                        <img src="./images/hebergements/fred-kleber.jpg" alt="Hôtel du port">
+                                    </div>
+
+                                    <h3>Hôtel du port</h3>
+                                    <p>Nuit à partir de 52€</p>
+                                    <div class="star-container">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                    </div>
+                                    
+                                </div>
+                            </a>
+
+                            <a href="https://openclassrooms.com/fr/" class="main-anchor" target="_blank">    
+                                <div class="main-cards">
+
+                                    <div class="main-img-container">
+                                        <img src="./images/hebergements/febrian-zakaria.jpg" alt="Hôtel Chez Amina">
+                                    </div>
+
+                                    <h3>Hôtel Chez Amina</h3>
+                                    <p>Nuit à partir de 96€</p>
+                                    <div class="star-container">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                    </div>
+                                    
+                                </div>
+                            </a>    
+
+                            <a href="https://openclassrooms.com/fr/" class="main-anchor" target="_blank">
+                                <div class="main-cards">
+
+                                    <div class="main-img-container">
+                                        <img src="./images/hebergements/reisetopia.jpg" alt="Hôtel Les mouettes">
+                                    </div>
+
+                                    <h3>Hôtel Les mouettes</h3>
+                                    <p>Nuit à partir de 76€</p>
+                                    <div class="star-container">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                    </div>
+                                    
+                                </div>
+                            </a>
+
+                            <a href="https://openclassrooms.com/fr/" class="main-anchor" target="_blank">    
+                                <div class="main-cards">
+
+                                    <div class="main-img-container">
+                                        <img src="./images/hebergements/annie-spratt.jpg" alt="Hôtel de la mer">
+                                    </div>
+
+                                    <h3>Hôtel de la mer</h3>
+                                    <p>Nuit à partir de 46€</p>
+                                    <div class="star-container">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                    </div>
+                                    
+                                </div>
+                            </a>    
+
+                            <a href="https://openclassrooms.com/fr/" class="main-anchor" target="_blank">    
+                                <div class="main-cards">
+                                    
+                                    <div class="main-img-container">
+                                        <img src="./images/hebergements/marcus-loke.jpg" alt="Auberge La Canebière">
+                                    </div>
+
+                                    <h3>Auberge La Canebière</h3>
+                                    <p>Nuit à partir de 25€</p>
+                                    <div class="star-container">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                    </div>
+                                    
+                                </div>
+                            </a>    
+
+                            <a href="https://openclassrooms.com/fr/" class="main-anchor" target="_blank">    
+                                <div class="main-cards">
+                                    
+                                    <div class="main-img-container">
+                                        <img src="./images/hebergements/nicate-lee.jpg" alt="Auberge Le panier">
+                                    </div>
+
+                                    <h3>Auberge Le panier</h3>
+                                    <p>Nuit à partir de 23€</p>
+                                    <div class="star-container">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                    </div>
+                                    
+                                </div>
+                            </a>    
+                        
+                        </div>
+
+                        <h3>Afficher Plus</h3>
+                        
+                    </div>
+                    
+                    <div class="secondary-box">
+                        
+                        <div class="secondary-title">
+                            
+                            <h2>Les plus populaires</h2>
+                            
+                            <i class="fa fa-line-chart fa-5" aria-hidden="true"></i>
+
+                        </div>
+                    
+                        <div class="grid-secondary-container">
+
+                            <a href="https://openclassrooms.com/fr/" class="secondary-anchor" target="_blank">
+
+                                <div class="secondary-cards">
+
+                                    <div class="secondary-img-container">
+                                        <img src="./images/hebergements/emile-guillemot.jpg" alt="Hôtel Le soleil du matin">
+                                    </div>
+
+                                    <div class="content">
+
+                                        <div class="secondary-text">
+
+                                            <h3>Hôtel Le soleil du matin</h3>
+                                            <p>Nuit à partir de 128€</p>
+
+                                        </div>
+                                    
+                                        <div class="star-container">
+                                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                            <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+
+                            <a href="https://openclassrooms.com/fr/" class="secondary-anchor" target="_blank">
+
+                                <div class="secondary-cards">
+
+                                    <div class="secondary-img-container">
+                                        <img src="./images/hebergements/aw-creative.jpg" alt="Chambres d'hôtes Au coeur de l'eau">
+                                    </div>
+
+                                    <div class="content">
+
+                                        <div class="secondary-text">
+                                            <h3>Chambres d'hôtes Au coeur de l'eau</h3>
+                                            <p>Nuit à partir de 71€</p>
+                                        </div>
+
+                                        <div class="star-container">
+                                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                            <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+
+                            <a href="https://openclassrooms.com/fr/" class="secondary-anchor" target="_blank">
+
+                                <div class="secondary-cards">
+
+                                    <div class="secondary-img-container">
+                                        <img src="./images/hebergements/febrian-zakaria2.jpg" alt="Hôtel Bleu et Blanc">
+                                    </div>
+                                
+                                    <div class="content">
+
+                                        <div class="secondary-text">
+                                            <h3>Hôtel Bleu et Blanc</h3>
+                                            <p>Nuit à partir de 68€</p>
+                                        </div>
+
+                                        <div class="star-container">
+                                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                            <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </a>    
+
+                        </div>
+
+                    </div>
+
+            </section>
+
+            <section class="activity" id="2">
+
+                <h2>Activités à Marseille</h2>
+
+                <div class="activity-container">
+
+                    <a href="https://openclassrooms.com/fr/" class="activity-anchor" target="_blank">
+
+                        <div class="activity-cards">
+
+                            <img src="./images/activites/reno-laithienne.jpg" alt="Image du Vieux-Port">
+                            <div class="activity-title">
+                                <h3>Vieux-Port</h3>
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                    <a href="https://openclassrooms.com/fr/" class="activity-anchor" target="_blank">
+
+                        <div class="activity-cards">
+
+                            <img src="./images/activites/paul-hermann.jpg" alt="Image du Fort de Pomègues">
+                            <div class="activity-title">
+                                <h3>Fort de Pomègues</h3>
+                            </div>
+
+                        </div>
+
+                    </a>    
+
+                    <a href="https://openclassrooms.com/fr/" class="activity-anchor" target="_blank">
+
+                        <div class="activity-cards">
+
+                            <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image du Parc des Calanques">
+                            <div class="activity-title">
+                                <h3>Parc national des Calanques</h3>
+                            </div>
+
+                        </div>
+
+                    </a>    
+
+                    <a href="https://openclassrooms.com/fr/" class="activity-anchor" target="_blank">
+
+                        <div class="activity-cards">
+
+                            <img src="./images/activites/florian-wehde.jpg" alt="Image de Notre-Dame-de-la-Garde">
+                            <div class="activity-title">
+                                <h3>Notre-Dame-de-la-Garde</h3>
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+
+            <div class="footer-info">
+                
+                <h3>À propos</h3>
+                <p><a href="#">Fonctionnement du site</a></p>
+                <p><a href="#">Conditions générales</a></p>
+                <p><a href="#">Données et confidentialité</a></p>
+
+            </div>
+
+            <div class="footer-accomodation">
+
+                <h3>Nos Hébergements</h3>
+                <p><a href="#">Charte qualité</a></p>
+                <p><a href="#">Proposer votre hôtel</a></p>
+
+            </div>
+
+            <div class="footer-help">
+
+                <h3>Assistance</h3>
+                <p><a href="#">Centre d'aide</a></p>
+                <p><a href="#">Nous contacter</a></p>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+</html>
